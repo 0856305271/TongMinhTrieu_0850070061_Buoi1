@@ -79,7 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Column(
                mainAxisAlignment: MainAxisAlignment.center,
                children: <Widget>[
-                  Image.network('https://media.wired.com/photos/5c83066025da7204699767c7/16:9/w_2400,h_1350,c_limit/calculator-1470.jpg',width: 150, height: 150,),
+                  Image.network('https://m.media-amazon.com/images/I/81lLtZIG6NL._AC_UF1000,1000_QL80_.jpg',width: 150, height: 150,),
                   Container().customContainer(TextField().customTF("Nhập số A",_textEditingControllerSoA)),
                   Container().customContainer(TextField().customTF("Nhập số B",_textEditingControllerSoB)),
                   Container().customContainer(Center(child :Text("Kết quả " + '$result' , textDirection: TextDirection.ltr,style: TextStyle(fontSize: 18.0),))),
